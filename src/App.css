@@ -1,0 +1,180 @@
+/* General styling for the app */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  /* Adding a random background wallpaper */
+  background: url('https://i.pinimg.com/736x/58/c4/38/58c43830365d8fb2eab1a612a64d7c4e.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+/* Styling for the header */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: violet /* Tomato color for heading */
+}
+
+/* Styling for the user list and table */
+.user-list {
+  margin: 20px auto;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for table */
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+/* User table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table headers and cells */
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Header color */
+.user-table th {
+  background-color: #ff6347;
+  color: white;
+  font-size: 1.2em;
+}
+
+/* Row background */
+.user-table td {
+  background-color: #f4f4f4;
+}
+
+/* Buttons in the table (Edit/Delete) */
+.user-table td button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* Hover effect for buttons */
+.user-table td button:hover {
+  background-color: #45a049;
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination button.active {
+  background-color: #388e3c;
+}
+
+/* Styling for the user form */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input fields */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Buttons in the form (Save/Cancel) */
+.form-container button {
+  width: 30%; /* Reduced width */
+  padding: 7px 15px; /* Reduced padding */
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Hover effect for buttons */
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+/* Cancel button specific style */
+.form-container button[type="button"] {
+  background-color: #f44336;
+}
+
+/* Hover effect for cancel button */
+.form-container button[type="button"]:hover {
+  background-color: #e53935;
+}
+
+/* Add user button */
+.add-user-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* Hover effect for add user button */
+.add-user-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Adding a background image to the UL (user list) */
+.user-list ul {
+  list-style-type: none;
+  padding: 10px;
+  background: url('https://source.unsplash.com/random/1600x900') no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+
+
+
